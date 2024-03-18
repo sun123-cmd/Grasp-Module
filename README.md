@@ -30,15 +30,15 @@ Once you run the program it will save the following visualizations in the `save_
 
 These visualizations help in understanding the output behaviour and also helps in debugging in case of errors.
 
-### Running choices
+## Running choices
 While running `debug.py`code, you will have choices as follows
 `$Enter action [pick/place]: pick`
 `$Enter a Object name in the scence: Pick the yellow bottle up`
 Then target pictures will be loaded.
 
 
-### Output results
-#### pick action 
+## Output results
+### pick action 
 has **target postion**, **rotation martix** and **camera depth** return data
 * **translation**
 [-0.03910572 -0.17605631  0.73799998]
@@ -49,7 +49,7 @@ has **target postion**, **rotation martix** and **camera depth** return data
 * **depth and crop_flag** 
 0.019999999552965164 False 0
 
-#### place action 
+### place action 
 has **target postion** return data
 * **Placing point of Object relative to camera**: 
 [ 0.12       -0.04195643 -0.67549731]
