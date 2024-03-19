@@ -1,1 +1,0 @@
-python demo_camera_test.py --checkpoint_path checkpoints/checkpoint_detection.tar --filter oneeuro --debug
