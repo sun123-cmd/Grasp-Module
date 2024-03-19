@@ -10,6 +10,7 @@ This section contains robot arm grasp manipulation related code. Below figure de
 ## Code
 Run the following code:
 ```
+conda env create -f environment.yml
 conda activate grasp-env
 
 cd /src
