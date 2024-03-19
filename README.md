@@ -57,6 +57,3 @@ has **target postion** return data
 
 
 ## Use RGB-D Camera of gazebo
-* **First** :`roslaunch realsense2_camera rs_camera.launch`
-We need to get camera 3D data from the camera this way.
-* **Then** :
