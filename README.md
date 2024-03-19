@@ -12,8 +12,8 @@ Run the following code:
 ```
 conda activate grasp-env
 
-cd /home/hs/disk1/sunwenhao/grasp/src
-python demo.py --debug
+cd /src
+python camera_demo.py 
 ```
 **debug flag -** Is for visualizing 3d plots of grasping.
 **open_communication flag -** Is for selection from dry run and robot running (here we only want to dry run to test environment installation).
