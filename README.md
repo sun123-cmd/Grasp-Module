@@ -14,7 +14,7 @@ conda env create -f environment.yml
 conda activate grasp-env
 
 cd /src
-python camera_demo.py 
+sh grasp.sh 
 ```
 **debug flag -** Is for visualizing 3d plots of grasping.
 **open_communication flag -** Is for selection from dry run and robot running (here we only want to dry run to test environment installation).
@@ -55,5 +55,3 @@ has **target postion** return data
 * **Placing point of Object relative to camera**: 
 [ 0.12       -0.04195643 -0.67549731]
 
-
-## Use RGB-D Camera of gazebo
