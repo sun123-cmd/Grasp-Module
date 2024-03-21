@@ -55,4 +55,3 @@ has **target postion** return data
 * **Placing point of Object relative to camera**: 
 [ 0.12       -0.04195643 -0.67549731]
 
-
