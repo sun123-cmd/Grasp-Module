@@ -567,7 +567,7 @@ class CameraObjectHandler:
 
         # Filtering points based on the distance from camera
         mask = (points_z > self.cfgs.min_depth) & (points_z < self.cfgs.max_depth)
-        points = np.stack([points_x, -points_y, points_z], axis=-1)
+        points = np.stack([points_x, points_y, points_z], axis=-1)
         points = points[mask].astype(np.float32)
         colors_m = self.cam.colors[mask].astype(np.float32)
 
