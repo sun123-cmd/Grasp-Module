@@ -33,6 +33,7 @@ These visualizations help in understanding the output behaviour and also helps i
 
 ## Running choices
 While running `debug.py`code, you will have choices as follows
+
 `$Enter action [pick/place]: pick`
 
 `$Enter a Object name in the scence: Pick the yellow bottle up`
