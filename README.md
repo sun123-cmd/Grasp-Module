@@ -32,7 +32,7 @@ Once you run the program it will save the following visualizations in the `save_
 These visualizations help in understanding the output behaviour and also helps in debugging in case of errors.
 
 ## Running choices
-While running `debug.py`code, you will have choices as follows
+While running `grasp.sh`, you will have choices as follows
 
 `$Enter action [pick/place]: pick`
 
