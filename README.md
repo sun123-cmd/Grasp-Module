@@ -42,19 +42,28 @@ Then target pictures will be loaded.
 
 
 ## Output results
-### pick action 
-has **target postion**, **rotation martix** and **camera depth** return data
-* **translation**
-[-0.03910572 -0.17605631  0.73799998]
-* **rotation_matrix**
-[[-0.00318942  0.99998814  0.00369123]
- [-0.6537931  -0.00487828  0.75665766]
- [ 0.75666666  0.          0.6538009 ]]
-* **depth and crop_flag** 
-0.019999999552965164 False 0
+### pick action
 
-### place action 
+`
+pose: 
+  position: 
+    x: 0.6622924260241524
+    y: 0.07280533485158182
+    z: 0.5642412025151146
+  orientation: 
+    x: 0.9981615998332755
+    y: -0.060607674782036255
+    z: -0.0003607991796832533
+    w: 1.4133050694511665e-05
+ `
+
+  ### place action 
 has **target postion** return data
 * **Placing point of Object relative to camera**: 
 [ 0.12       -0.04195643 -0.67549731]
+
+## Grasp in Gazebo
+
+run code:`./src/camera_convert_grasp.py`, which use tf tool to convert frames and moveit tool to control arm.
+
 
