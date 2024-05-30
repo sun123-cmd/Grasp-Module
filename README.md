@@ -44,7 +44,7 @@ Then target pictures will be loaded.
 ## Output results
 ### pick action
 
-`
+```
 pose: 
   position: 
     x: 0.6622924260241524
@@ -55,12 +55,12 @@ pose:
     y: -0.060607674782036255
     z: -0.0003607991796832533
     w: 1.4133050694511665e-05
- `
+ ```
 
   ### place action 
 has **target postion** return data
 * **Placing point of Object relative to camera**: 
-[ 0.12       -0.04195643 -0.67549731]
+```[ 0.12       -0.04195643 -0.67549731]```
 
 ## Grasp in Gazebo
 
